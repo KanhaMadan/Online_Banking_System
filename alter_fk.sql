@@ -1,0 +1,23 @@
+use bank;
+
+-- alter table customer add foreign key(Locker_no) references locker(Locker_no);
+-- alter table manage add foreign key (User_ID) references user(User_ID);
+-- alter table manage add foreign key (Cust_ID) references customer(Cust_ID);
+-- alter table manage add foreign key (Emp_ID) references employee(Emp_ID);  
+-- alter table loan add foreign key (IFSC_code) references branch(IFSC_code);
+-- alter table borrows add foreign key (Loan_ID) references loan(Loan_ID);
+-- alter table borrows add foreign key (Cust_ID) references customer(Cust_ID);
+-- alter table makes add foreign key (Loan_ID) references loan(Loan_ID);
+-- alter table user add foreign key(User_name) references login(User_name);
+-- alter table makes add foreign key (Cust_ID) references customer(Cust_ID);
+-- alter table makes add foreign key (Pmt_number) references payment(Pmt_number);
+-- alter table depositor add foreign key (Cust_ID) references customer(Cust_ID); 
+-- alter table depositor add foreign key (Acc_no) references account(Acc_no);
+-- alter table employee add foreign key (Mgr_SSN) references employee(Emp_ID);
+-- alter table balance add foreign key (Emp_ID) references employee(Emp_ID);
+-- alter table current_acc add foreign key (Acc_no) references account(Acc_no);
+-- alter table recurring_deposit_acc add foreign key (Acc_no) references account(Acc_no);
+-- alter table nri_acc add foreign key (Acc_no) references account(Acc_no);
+-- alter table fixed_deposit_acc add foreign key (Acc_no) references account(Acc_no);
+-- alter table savings_acc add foreign key (Acc_no) references account(Acc_no);  
+-- alter table user add foreign key(User_name) references login(User_name);
